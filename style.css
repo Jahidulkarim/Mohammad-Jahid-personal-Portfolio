@@ -1,26 +1,41 @@
 body{
     font-family: 'Playfair Display', serif;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+span{
+    color: orange;
 }
 .container{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    margin: 0%;
+    margin-bottom: 150px;
     
 }
 .half-weight{
     width: 50%;
     padding-left: 5%;
+    padding-right:5% ;
 }
 .half-weight img{
     width: 80%;
 }
 .btn{
     text-decoration: none;
-    background-color: black;
+    background-image: linear-gradient(orange, tomato);
     color: white;
     padding: 10px 30px;
     border-radius: 5px;
     font: weight 700px;
 }
-.img-size{
-    width: 500%;
-    height: 400px;
+
+.dream-big{
+    display: flex;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
