@@ -18,7 +18,7 @@ span{
 }
 .half-weight{
     width: 50%;
-    padding-left: 5%;
+    padding-left: 2%;
     padding-right:5% ;
 }
 .half-weight img{
@@ -38,4 +38,33 @@ span{
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    margin-bottom: 150px;
+}
+.jamela-area{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    margin-bottom: 150px
+}
+.experiance-item{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+#baby-web-experiance{
+    border-left:8px solid ;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#full-web-experiance{
+    border-left:8px solid ;
+    border-image: linear-gradient(orange, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
