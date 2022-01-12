@@ -1,0 +1,26 @@
+body{
+    font-family: 'Playfair Display', serif;
+}
+.container{
+    display: flex;
+    
+}
+.half-weight{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-weight img{
+    width: 80%;
+}
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    font: weight 700px;
+}
+.img-size{
+    width: 500%;
+    height: 400px;
+}
